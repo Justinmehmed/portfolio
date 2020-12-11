@@ -651,22 +651,23 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	display: inline-block;
-	font-family: "poppins-bold", sans-serif;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-	letter-spacing: .3rem;
-	height: 5.4rem;
-	line-height: 5.4rem;
-	padding: 0 3rem;
-	margin: 0 .3rem 1.2rem 0;
-	background: #d8d8d8;
-	color: #313131;
-	text-decoration: none;
-	cursor: pointer;
-	text-align: center;
-	white-space: nowrap;
-	border: none;
+	display: block;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    height: 6.6rem;
+    line-height: 6.6rem;
+    padding: 0 3rem;
+    margin: 0 .3rem 1.2rem 0;
+    background: #ff0077;
+    color: hsla(0,0%,100%,.95);
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -684,8 +685,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-	background: #bebebe;
-	color: #000000;
+	background: #ebebeb;
+	color:  #ff0077;
 	outline: 0;
 }
 .button.button-primary,
@@ -1096,7 +1097,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 125px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
