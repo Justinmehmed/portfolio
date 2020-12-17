@@ -74,7 +74,8 @@ body {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color:#888888;
+	;
 }
 
 /**
@@ -1548,7 +1549,7 @@ header .logo a {
 	display: block;
 	font-family: "lora-regular", serif;
 	color: #888888;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	line-height: 2;
 }
 .about-content .skill-bars {
