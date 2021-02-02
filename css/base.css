@@ -277,11 +277,18 @@ button {
  * Media - (_basic.scss)
  * ------------------------------------------------------------------- 
  */
+ 
+ .quiz {
+	width: 700px
+}
+
+
 img,
 video {
-	max-width: 100%;
-	height: auto;
+	max-width: 500px;
+	height: 255px;
 }
+
 
 /**
  * Typography resets - (_basic.scss)
